@@ -1,0 +1,12 @@
+name: App-1
+title: App-1
+username:
+account: aiprediction
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 497595
+bundleId: 1627010
+url: https://aiprediction.shinyapps.io/App-1/
+when: 1538852719.46867
+asMultiple: FALSE
+asStatic: FALSE
