@@ -2,19 +2,39 @@
 load(url("https://s3.us-east-2.amazonaws.com/aiprediction/AIproduction.RData"))
 # Deploy app:
 # library(rsconnect)
-#rsconnect::deployApp('path/to/your/app')
+rsconnect::deployApp('/shiny.io/igprediction')
 
 library(shiny)
 
 ui <- fluidPage(
-  # Input() function,
-  # Output() function
-  sliderInput(inputId = "num", label ="Chose a number:",
-              value = 25, min =1, max = 100),
   
-  plotOutput(outputId = "hist")
-  
-)
+        tabsetPanel(
+          tabPanel("Dashboard",
+                   navlistPanel(widths = c(2,10),
+                     tabPanel("Plot", 
+                                fluidRow
+                                (
+                                  column(2),
+                                  column(6, sliderInput(inputId = "num", label ="Chose a number:",
+                                                        value = 25, min =1, max = 100))
+                                ),
+                                
+                                fluidRow
+                                (
+                                  column(4, offset =8,plotOutput(outputId = "hist"))
+                                )),
+                    tabPanel("Summary"),
+                    tabPanel("Table")
+                    )),
+          tabPanel("Scheduling"),
+          tabPanel("Model Assumption"),
+          tabPanel("Production Allocation"),
+          tabPanel("Decline Curve"),
+          tabPanel("Interactive Plot"),
+          tabPanel("Machine Learning")))
+             # Input() function,
+             # Output() function
+
 
 server <- function(input, output) {
   
