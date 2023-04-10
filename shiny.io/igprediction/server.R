@@ -4,7 +4,7 @@ library(shiny)
 library(shinydashboard)
 library(plotly)
 
-load(url("https://s3.us-east-2.amazonaws.com/aiprediction/Dashboard.RData"))
+load(url("https://github.com/tpou/IGPrediction/blob/master/data/Dashboard.RData"))
 
 Dashboard2<- melt(Dashboard,id.vars="Date",measure.vars=c("N","W","S","OT"))
 
