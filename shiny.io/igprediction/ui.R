@@ -1,5 +1,5 @@
 
-load(url("https://s3.us-east-2.amazonaws.com/aiprediction/Dashboard.RData"))
+load(url("https://rshiny.s3.ap-southeast-1.amazonaws.com/Dashboard.RData"))
 # Deploy app:
 # library(rsconnect)
 #rsconnect::deployApp('path/to/your/app')

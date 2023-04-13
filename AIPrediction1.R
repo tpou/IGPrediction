@@ -1,5 +1,5 @@
 
-load(url("https://s3.us-east-2.amazonaws.com/aiprediction/AIproduction.RData"))
+load(url("https://aiprediction.s3.us-east-2.amazonaws.com/AIproduction.RData"))
 # Deploy app:
 # library(rsconnect)
 rsconnect::deployApp('/shiny.io/igprediction')

@@ -4,7 +4,7 @@ library(shiny)
 library(shinydashboard)
 library(plotly)
 
-load(url("https://tineusstorage.blob.core.windows.net/shiny/Dashboard.RData"))
+load(url("https://rshiny.s3.ap-southeast-1.amazonaws.com/Dashboard.RData"))
 
 Dashboard2<- melt(Dashboard,id.vars="Date",measure.vars=c("N","W","S","OT"))
 
