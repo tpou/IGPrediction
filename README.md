@@ -1,6 +1,7 @@
-# IGPrediction
-An R Shiny app involves machine learning into gas field production forecasting model. Historical data is under relational database on cloud S3 AWS and updated automatically on R shiny
+# Visualize Production Data and Deploy R Shiny on Cloud
+A R Shiny app deployed on Cloud to forecast and visualize gas field production data. Historical data is under relational database on cloud S3 AWS and updated automatically on R shiny.
 
+Product Link: [https://ai-ml.shinyapps.io/igprediction/](ai-ml.shinyapps.io/igprediction/)
 
 
 <!-- PROJECT SHIELDS -->
@@ -18,12 +19,7 @@ An R Shiny app involves machine learning into gas field production forecasting m
 
 
 <br />
-<div align="center">
 
-
-  <h3 align="center">Deploy R Shiny on Cloud</h3>
-
-</div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
