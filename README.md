@@ -1,5 +1,5 @@
 # Visualize Production Data and Deploy R Shiny on Cloud
-A R Shiny app deployed on Cloud to forecast and visualize gas field production data. Historical data is under relational database on cloud S3 AWS and updated automatically on R shiny.
+A R Shiny app deployed on Cloud to forecast and visualize gas field production data. R workspaces are saved and stored on cloud S3 AWS and retrieved to R shinyapps.io server automatically.
 
 Product Link: [https://ai-ml.shinyapps.io/igprediction/](ai-ml.shinyapps.io/igprediction/)
 
@@ -57,17 +57,20 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_The codes can be reproduced by downloading to your local server and re-host to your preferreable shinyapps.io domain name._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. To clone the project from Git:
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/tpou/IGPrediction.git
    ```
-3. Install NPM packages
+3. Install R packages:
    ```sh
-   npm install
+   install.packages('shiny')
    ```
+4. Run App
+
+5. Publish
+
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
@@ -103,12 +106,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
+* [DataCamp-Building Web App with R Shiny](https://https://www.datacamp.com/)
+* [Amazon Web Service S3](https://aws.amazon.com/)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
