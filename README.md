@@ -31,17 +31,11 @@ Here's why:
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should implement DRY principles to the rest of your life :smile:
 
+![R Shiny App](https://github.com/tpou/IGPrediction/blob/master/src/igprediction.png?raw=true)
+
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
 Use the `BLANK_README.md` to get started.
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -68,13 +62,12 @@ _The codes can be reproduced by downloading to your local server and re-host to 
    install.packages('shiny')
    ```
 4. Run App
-
-5. Publish
-
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
    ```
+   > shiny::runApp('shiny.io/app_name')
+   ```
+   
+5. Publish
+   App once deployed will be available on https://ai-ml.shinyapps.io/app_name/
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -95,7 +88,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@Tien Phan](https://www.pntien.com) - tienphn@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -108,6 +101,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [DataCamp-Building Web App with R Shiny](https://https://www.datacamp.com/)
 * [Amazon Web Service S3](https://aws.amazon.com/)
+* [DT data table package](https://yihui.shinyapps.io/DT-edit/)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
